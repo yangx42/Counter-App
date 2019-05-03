@@ -18,6 +18,12 @@ export default class Counter extends React.Component {
     });
   };
 
+  zeroButton = () => {
+    this.setState({
+      count: 0
+    });
+  };
+
   render() {
     return (
       <div className="counterBody">
@@ -29,6 +35,11 @@ export default class Counter extends React.Component {
         <button onClick={this.incrementButton} className="buttonOne">
           Increment
         </button>
+        <div>
+          <button onClick={this.zeroButton} className="buttonClear">
+            Clear
+          </button>
+        </div>
       </div>
     );
   }
