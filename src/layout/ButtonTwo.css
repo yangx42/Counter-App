@@ -1,10 +1,10 @@
-.counterBody {
-  float: left;
+.counterTwoBody {
+  float: right;
   width: 50%;
   box-sizing: border-box;
 }
 
-.buttonOne {
+.buttonTwo {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   padding: 10px 15px;
@@ -40,7 +40,7 @@
   border-radius: 12px;
 }
 
-.buttonClear {
+.buttonTwoClear {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   padding: 10px 100px;

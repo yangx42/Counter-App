@@ -1,7 +1,7 @@
 import React from "react";
-import "../layout/Button.css";
+import "../layout/ButtonTwo.css";
 
-export default class Counter extends React.Component {
+export default class CounterTwo extends React.Component {
   state = {
     count: 0
   };
@@ -26,18 +26,18 @@ export default class Counter extends React.Component {
 
   render() {
     return (
-      <div className="counterBody">
-        <div className="countText">Team 1</div>{" "}
+      <div className="counterTwoBody">
+        <div className="countText">Team 2</div>{" "}
         <div id="numberDisplay">{this.state.count}</div>
-        <button onClick={this.decrementButton} className="buttonOne">
+        <button onClick={this.decrementButton} className="buttonTwo">
           Decrement
         </button>
-        <button onClick={this.incrementButton} className="buttonOne">
+        <button onClick={this.incrementButton} className="buttonTwo">
           Increment
         </button>
         <div>
-          <button onClick={this.zeroButton} className="buttonClear">
-            Clear Team One
+          <button onClick={this.zeroButton} className="buttonTwoClear">
+            Clear Team Two
           </button>
         </div>
       </div>
